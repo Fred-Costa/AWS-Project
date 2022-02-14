@@ -16,8 +16,9 @@
 * Create a Certificate Authority
 -> `./easyrsa build-ca`
 
-#Now you can type ./easyrsa and you will have a bunch of available commands.
-#I'm going to demonstrate an example of building a VPN Server Certificate.
+### Now you can type ./easyrsa and you will have a bunch of available commands.
+
+### I'm going to demonstrate an example of building a VPN Server Certificate.
 
 -> `./easyrsa build-server-full vpn.enta.pt nopass`
 
