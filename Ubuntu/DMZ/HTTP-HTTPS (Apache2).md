@@ -13,21 +13,28 @@
 
 
 * Configure the "HTTPS" site
+
 -> `nano /etc/apache2/sites-available/default-ssl.conf` 
--> In the `DocumentRoot` change for `htmls`
--> Change the certificates too! 
+
+-> In the `DocumentRoot` change for `htmls` - Change the certificates too! 
 
 
 -> `cd /var/www/`
+
 -> `cp -r html/ htmls`
+
 -> `cd html/`
 
 * Changing the HTTP (port 80)
+* 
 -> `cd html/`
+
 -> `nano index.html`
 
 * Changing the HTTPS (8443) 
+* 
 -> `cd htmls/`
+
 -> `nano index.html`
 
 * For changing the port of HTTPS, go to `nano /etc/apache2/sites-available/default-ssl.conf`
