@@ -14,12 +14,12 @@
 -> `./easyrsa init-pki`
 
 * Create a Certificate Authority
--> ./easyrsa build-ca
+-> `./easyrsa build-ca`
 
 #Now you can type ./easyrsa and you will have a bunch of available commands.
 #I'm going to demonstrate an example of building a VPN Server Certificate.
 
--> ./easyrsa build-server-full vpn.enta.pt nopass
+-> `./easyrsa build-server-full vpn.enta.pt nopass`
 
 #Certificates stay here: /etc/easy-rsa/pki/issued
 #Private keys stay here: /etc/easy-rsa/pki/private
