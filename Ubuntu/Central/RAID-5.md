@@ -68,9 +68,11 @@ Click: N, ENTER(3x), fd00, W, Y
 
 -> `mount /dev/vg0/lv0 /mnt/raid5_homes/ && mount /dev/vg0/lv1 /mnt/userinfo/`
 
+* Copy last line
 
 -> `cat /etc/mtab `
-##### Copy last line.
+ 
+* Paste line and add "nofail"
 
 -> `nano /etc/fstab`
-##### Paste line and add "nofail"
+
