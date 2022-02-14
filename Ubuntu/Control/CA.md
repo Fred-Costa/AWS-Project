@@ -1,10 +1,13 @@
 # Install and configure EasyRSA package in your server.
 
 * Instal the Easy-rsa 
-->  `apt install easy-rsa -y `
+
+-> `apt install easy-rsa -y`
 
 
--> cd /etc/ && cp -r /usr/share/easy-rsa/ .
+-> `cd /etc/`
+
+-> cp -r /usr/share/easy-rsa/ .`
 
 
 -> cd easy-rsa/
