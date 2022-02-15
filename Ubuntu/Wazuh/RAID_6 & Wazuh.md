@@ -61,3 +61,8 @@
 - `cat /etc/mtab`
 > Colar as linhas e adicionar "nofail"
 - `nano /etc/fstab`
+
+
+### Wazuh Installation 
+
+[Installation and Configuration Here](https://documentation.wazuh.com/current/installation-guide/open-distro/all-in-one-deployment/all-in-one.html)
