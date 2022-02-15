@@ -112,7 +112,7 @@ mkdir -p /mnt/raid5_homes
 
 Mount the file system
 ```
-mount -t nfs 10.0.100.104:/mnt/raid5_homes /mnt/raid5_homes
+mount -t nfs 172.31.144.104:/mnt/raid5_homes /mnt/raid5_homes
 ```
 
 Copy the last line.
