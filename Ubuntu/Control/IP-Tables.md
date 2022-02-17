@@ -2,7 +2,7 @@
 nano /etc/iptables/rules.v4
 * Internet
 ```
--A POSTROUTING -o eth0 -j MASQUERADE
+-A POSTROUTING -t nat -o eth0 -j MASQUERADE
 ```
 
 * Wazuh
